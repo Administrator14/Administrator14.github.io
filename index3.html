@@ -8,5 +8,11 @@
 </head>
 <body>
     <h0>hello!</h0>
+    <script>
+        document.addEventListener('copy', (e) => {
+            e.preventDefault();
+            navigator.clipboard.writeText('禁止复制!')
+        });
+    </script>
 </body>
 </html>
