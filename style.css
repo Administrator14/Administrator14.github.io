@@ -30,3 +30,10 @@ qizilan {
     align-items: center;
     justify-content: center;
 }
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration: none;
+    font-size: 8em;
+}
