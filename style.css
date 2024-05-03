@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@keyframes color-change {
+    0% {color: rgb(255, 94, 0);}
+    50% {color: rgb(229, 255, 0);}
+    100% {color: rgb(255, 94, 0);}
+}
+h0 {
+    display: block;
+    font-size: 10em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    animation-name: color-change;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+qizilan {
+    width: 100%;
+    height: 160px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
