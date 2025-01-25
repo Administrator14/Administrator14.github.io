@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/style3.css">
+    <title>登录页面</title>
+</head>
+<body>
+<div class="container">
+    <h1>登录</h1>
+    <form action="http://localhost:3000/login" method="POST">
+        <label for="username">用户名:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">密码:</label>
+        <input type="password" id="password" name="password" required>
+
+        <p>没有帐号？<a href="../register/">现在注册</a></p>
+
+        <button type="submit">登录</button>
+    </form>
+</div>
+</body>
+</html>
